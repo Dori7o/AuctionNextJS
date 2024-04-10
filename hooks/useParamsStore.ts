@@ -1,4 +1,4 @@
-import { create } from "zustand"
+import { createWithEqualityFn } from "zustand/traditional"
 
 type State = {
     pageNumber : number
@@ -6,7 +6,7 @@ type State = {
     pageCount : number
     searchTerm : string
     searchValue: string
-    orberBy : string
+    orderBy : string
     filterBy: string
 }
 
@@ -22,11 +22,11 @@ const initialState: State= {
     pageCount: 1,
     searchTerm: "",
     searchValue: "",
-    orberBy: 'make',
+    orderBy: 'make',
     filterBy: 'live'
 }
 
-export const useParamsStore = create<State & Actions>()((set) => ({
+export const useParamsStore = createWithEqualityFn<State & Actions>()((set) => ({
     ...initialState,
     setParams: (newParams: Partial<State>) => {
         set((state) => {
