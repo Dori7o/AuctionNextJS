@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { updateActionTest } from "../actions/AuctionsActions";
+import { updateActionTest } from "../actions/auctionsActions";
 import { Button } from "flowbite-react";
 
 export default function AuthTest() {

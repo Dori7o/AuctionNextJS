@@ -20,20 +20,6 @@ export default function Search() {
   }
   return (
     <div className="flex w-[50%] items-center border-2 rounded-full py-2 shadow-sm">
-      {/* <input
-        type="text"
-        onChange={onChange}
-        onKeyDown={(e: any) => {
-          if (e.key === "Enter") search();
-        }}
-        value={searchValue}
-        placeholder="Search for cars by make, model or color"
-        className="
-            flex-grow pl-5 bg-transparent
-            focus:outline-none border-transparent focus:border-transparent
-            focus:ring-0 text-sm text-gray-600
-        "
-      /> */}
       <input
                 onKeyDown={(e: any) => {
                     if (e.key === 'Enter') search();
@@ -43,13 +29,7 @@ export default function Search() {
                 type="text"
                 placeholder='Search for cars by make, model or color'
                 className='
-                flex-grow
-                pl-5
-                bg-transparent
-                focus:outline-none
-                border-transparent
-                focus:border-transparent
-                focus:ring-0
+                input-custom
                 text-sm
                 text-gray-600
             '
