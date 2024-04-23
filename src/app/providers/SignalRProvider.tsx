@@ -8,8 +8,8 @@ import { add } from 'date-fns';
 import { User } from 'next-auth';
 import AuctionCreatedToast from '../auctions/AuctionCreatedToast';
 import toast from 'react-hot-toast';
-import { getDetailViewData } from '../actions/auctionsActions';
 import AuctionFinishedToast from '../auctions/AuctionFinishedToast';
+import { getDetailViewData } from '../actions/AuctionsActions';
 
 type Props = {
     children: ReactNode

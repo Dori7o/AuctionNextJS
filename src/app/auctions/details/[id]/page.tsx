@@ -1,4 +1,3 @@
-import { getBidsForAuction, getDetailViewData } from "@/app/actions/auctionsActions";
 import Heading from "@/app/components/Heading";
 import React from "react";
 import CountdownTimer from "../../CountdownTimer";
@@ -9,6 +8,7 @@ import EditButton from "./EditButton";
 import DeleteButton from "./DeleteButton";
 import BidItem from "./BidItem";
 import BidList from "./BidList";
+import { getDetailViewData } from "@/app/actions/AuctionsActions";
 
 export default async function Details({ params }: { params: { id: string } }) {
   const data = await getDetailViewData(params.id);

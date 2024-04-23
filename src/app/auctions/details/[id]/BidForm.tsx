@@ -4,8 +4,8 @@ import React from 'react'
 import { FieldValues, useForm } from 'react-hook-form';
 import { toast } from 'react-hot-toast';
 import { useBidStore } from '../../../../../hooks/useBidStore';
-import { placeBidForAuction } from '@/app/actions/auctionsActions';
 import { numberWithCommas } from '../../../../../lib/numberWithComma';
+import { placeBidForAuction } from '@/app/actions/AuctionsActions';
 
 type Props = {
     auctionId: string;

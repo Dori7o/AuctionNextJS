@@ -4,13 +4,13 @@ import { User } from "next-auth";
 import React, { useEffect, useState } from "react";
 import { Auction, Bid } from "../../../../../types";
 import { useBidStore } from "../../../../../hooks/useBidStore";
-import { getBidsForAuction } from "@/app/actions/auctionsActions";
 import toast from "react-hot-toast";
 import Heading from "@/app/components/Heading";
 import BidItem from "./BidItem";
 import { numberWithCommas } from "../../../../../lib/numberWithComma";
 import EmptyFilter from "@/app/components/EmptyFilter";
 import BidForm from "./BidForm";
+import { getBidsForAuction } from "@/app/actions/AuctionsActions";
 
 type Props = {
   user: User | null;

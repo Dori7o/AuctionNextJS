@@ -1,6 +1,7 @@
 'use client'
 
-import { deleteAuction } from '@/app/actions/auctionsActions'
+
+import { deleteAuction } from '@/app/actions/AuctionsActions'
 import { Button } from 'flowbite-react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'

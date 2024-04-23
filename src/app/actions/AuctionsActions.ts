@@ -1,10 +1,11 @@
 'use server'
 
-import { FieldValue, FieldValues } from "react-hook-form";
+import { FieldValues } from "react-hook-form";
 import { fetchWrapper } from "../../../lib/fetchWrapper";
 import { Auction, Bid, PageResult } from "../../../types";
-import { getTokenWorkAround } from "./authActions";
 import { revalidatePath } from "next/cache";
+
+
 
 export async function getData(query: string ): Promise<PageResult<Auction>> {
     return await fetchWrapper.get(`search${query}`)

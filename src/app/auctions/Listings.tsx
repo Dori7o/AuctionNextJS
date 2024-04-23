@@ -4,13 +4,14 @@ import React, { useEffect, useState } from "react";
 import AuctionCard from "./AuctionCard";
 import { Auction, PageResult } from "../../../types";
 import AppPagination from "../components/AppPagination";
-import { getData } from "../actions/auctionsActions";
+
 import Filters from "./Filters";
 import { useParamsStore } from "../../../hooks/useParamsStore";
 import { shallow } from "zustand/shallow";
 import qs from "query-string";
 import EmptyFilter from "../components/EmptyFilter";
 import { useAuctionStore } from "../../../hooks/useAuctionStore";
+import { getData } from "../actions/AuctionsActions";
 
 export default function Listings() {
   const [loading, setLoading] = useState(true);
