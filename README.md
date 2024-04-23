@@ -8,13 +8,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project was designed to help me learn microservices architecture using C# in the backend and Next in the frontend was part of a course I did in Udemy that enchance my knowledge in this kind of architecture
-
+This project was designed to help me learn microservices architecture using C# in the backend and Next in the frontend was part of a course I did in Udemy that enchance my knowledge in this kind of architecture.
+<p>To check backend services source code you can click <a href="https://github.com/Dori7o/AuctionSite">here</a></p>
 
 ### Built With
 
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This application runs using this frameworks
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
