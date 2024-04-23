@@ -2,7 +2,9 @@ To run this project in your local machine
 
 Follow the steps 
 
-git clone
+git clone https://github.com/Dori7o/AuctionNextJS.git
+
+cd AuctionNextJS
 
 npm i
 
