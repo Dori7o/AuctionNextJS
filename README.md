@@ -10,6 +10,8 @@ npm i
 
 docker compose up -d
 
-npm run dev
+npm run build
+
+npm start
 
 localhost:3000
