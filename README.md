@@ -40,7 +40,7 @@ To run this app you need to have node and docker installed in your machine
 
 ### Installation
 
-Follow the instructions below to install the app
+Follow the instructions below to install the app, **do not forget you need to have docker desktop running**
 
 1. Clone the repo
    ```sh
