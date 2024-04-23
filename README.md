@@ -8,4 +8,4 @@ npm i
 
 docker compose up -d
 
-npm start
+npm run dev
